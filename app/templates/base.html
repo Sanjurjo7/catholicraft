@@ -1,0 +1,15 @@
+<html>
+  <head>
+    {% if title %}
+    <title>{{ title }} - CatholiCraft</title>
+    {% else %}
+    <title>Welcome to CatholiCraft</title>
+    {% endif %}
+  </head>
+  <body>
+    <div>Catholicraft: <a href="/index">Home</a></div>
+    <hr>
+    {% block content %}{% endblock %}
+  </body>
+</html>
+

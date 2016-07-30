@@ -1,0 +1,11 @@
+flask\Script\pip install flask
+flask\Script\pip install flask-login
+flask\Script\pip install flask-mail
+flask\Script\pip install flask-sqlalchemy
+flask\Script\pip install sqlalchemy-migrate
+flask\Script\pip install flask-whooshalchemy
+flask\Script\pip install flask-wtf
+flask\Script\pip install flask-babel
+flask\Script\pip install guess_language
+flask\Script\pip install flipflop
+flask\Script\pip install coverage
