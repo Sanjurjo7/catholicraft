@@ -12,16 +12,21 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
   <body>
-		<div class="navbar">
-			<div class="navbar-inner">
-				<a class="brand" href="#">Catholicraft:</a>
-				<ul class="nav">
-					<li class="active"><a href="/index">Home</a></li>
-				</ul>
-			</div>		
-		</div>
-		<hr>
-    {% block content %}{% endblock %}
+	<div class="navbar">
+		<div class="navbar-inner">
+			<a class="brand" href="#">Catholicraft:</a>
+			<ul class="nav">
+				<li class="active"><a href="/index">Home</a></li>
+			</ul>
+		</div>		
+	</div>
+	<hr>
+    <div id="content">{% block content %}{% endblock %}</div>
+    <div id="footer">
+        {% block footer %}
+        &copy; Copyright 2017 by <a href="http://catholicraft.com/">Catholicraft</a>.
+        {% endblock %}
+    </div>
   </body>
 </html>
 
