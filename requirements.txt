@@ -24,4 +24,5 @@ sqlparse==0.2.3
 Tempita==0.5.2
 Werkzeug==0.12.1
 Whoosh==2.7.4
+WhooshAlchemy==0.3.1
 WTForms==2.1
