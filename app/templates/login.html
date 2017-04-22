@@ -9,7 +9,7 @@
             Please enter your MC username:<br>
             {{ form.mc_username(size=80) }}<br>
             {% for error in form.mc_username.errors %}
-                <span style="color: red;">[{{ error }}]</span>
+            <div class="alert alert-danger">{{ error }}</div>
             {% endfor %}<br>
         </p>
         <p>{{ form.remember_me }} Remember Me</p>
